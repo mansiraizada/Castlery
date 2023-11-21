@@ -212,6 +212,7 @@ html, body{
     /* background-size: cover; */
     /* background-position: 0 30%; */
     /* background-color: blue; */
+    margin: 20px;
 }
 
 #left-center h1{

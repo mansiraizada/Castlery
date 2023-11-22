@@ -20,6 +20,14 @@ html, body{
     overflow: hidden;
 }
 
+svg{
+    fill:#fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+
 #left-top-left{
     padding: 20px;
     display: flex;

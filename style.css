@@ -183,6 +183,10 @@ button:hover{
     color: #fff;
 }
 
+#shop-button{
+    display: none;
+}
+
 #right{
     grid-row: 1/4;
     grid-column: 3;
@@ -321,7 +325,11 @@ button:hover{
     cursor: pointer;
     background-color: #994a39;
 }
-
+    
+button{
+    display: none;
+}
+    
 #right{
     grid-row: 4/6;
     grid-column: 1/3;

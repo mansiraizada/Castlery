@@ -151,10 +151,10 @@ button{
     height: 35%;
     margin-bottom: 40px;
     padding: 0px 20px;
-    background-color: #6C3428;
+    background-color: transparent;
     border: 2px solid #6C3428;
     border-radius: 15px;
-    color: #fff;
+    color: #6C3428;
     font-weight: 600;
     position: relative;
     transition: all linear 0.4s;
@@ -166,7 +166,7 @@ button::after{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color:#fff;
+    background-color: #6C3428;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -180,9 +180,8 @@ button:hover::after{
 }
 
 button:hover{
-    color: #6C3428;
+    color: #fff;
     cursor: pointer;
-    background-color: transparent;
 }
 
 #shop-button{

@@ -182,6 +182,7 @@ button:hover::after{
 button:hover{
     color: #fff;
     cursor: pointer;
+    background-color: transparent;
 }
 
 #shop-button{
